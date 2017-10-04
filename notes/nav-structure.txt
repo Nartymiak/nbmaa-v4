@@ -1,0 +1,121 @@
+nav / categories
+————————
+
+*Hours and Admission will be on every page (in case user lands in the middle of web site)
+
+Exhibition
+	current
+	upcoming
+	previous
+
+Calendar
+	Adult Programs 
+		Adult Studio
+			Classes (event_param)
+			Workshops (event_param)
+		Lecture (event_param)
+			An Evening With... (event_param)
+			Day of Learning (event_param)
+			Gallery Talks (event_param)
+			Up Close (event_param)
+			WED@1 (event_param)
+		Art and Literature (event_param)
+		Film Screening (event_param)
+		Fitness (event_param)
+		Teacher Program (event_param)
+		Tour (event_param)
+		Travel (event_param)
+	Family Programs
+		nurture through art (event_param)
+			museum and me (event_param)
+			museum and me too (event_param)
+			art start (event_param)
+			art explorers (event_param)
+			art adventure (event_param)0
+			studio@4 (event_param)
+			youth drawing 101 (event_param)
+			teen studio (event_param)
+		Family Day (event_param)
+		Homeschool Days (event_param)
+	Social Events 
+		Art Happy Hour (event_param)
+		Community Day (event_param)
+		First Friday (event_param)
+		Museum After Dark (event_param)
+		Open Mic Night (event_param)
+		Opening Reception (event_param)
+		Pop-up Market (event_param)
+		Special Event (event_param)
+		Sunday Music Series (event_param)
+	Volunteers & Members 
+		Members Only (event_param)
+		Volunteer Event (event_param)
+		
+Parking/Directions
+	local dining and hotels
+
+About
+	from the director
+	trustees
+	mission and vision
+	history
+	rules
+	employment
+	internship
+	volunteer
+	annual report
+	contact
+	staff
+
+Collection
+	emuseum
+	art
+	artist
+	thomas hart benton
+	bob Lesser collection
+	
+
+Membership (possibly info from support faq)
+	corporate-membership
+	library pass program
+	nor easter exhibition
+
+Cafe
+
+Rent the Museum
+
+Opportunities for Artists
+
+Education Department
+	nurture through art
+		museum and me (event_param)
+		museum and me too (event_param)
+		art start (event_param)
+		art explorers (event_param)
+		art adventure (event_param)
+		studio@4 (event_param)
+		youth drawing 101 (event_param)
+		teen studio (event_param)
+	adult studio
+		classes (event_param)
+		workshops (event_param)
+	homeschool days (event_param)
+	school visits
+	art lab
+	early childhood learning program
+	tour (event_param)
+	scout program
+	teacher program
+	resources
+	docent
+	policies and cancelations
+
+Donate (ways to give and support FAQ info)
+	planned giving
+	annual fund
+	sponsorship and special gifts
+	capital campaign
+
+Tickets
+
+Shop

@@ -1,0 +1,311 @@
+/* CSS designed by Nick Artymiak
+supports IE8 */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp, strike, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+del {
+	display: none;
+}
+
+ins {
+	text-decoration-line: none;
+}
+
+.submit:hover {
+	cursor: pointer;
+}
+/* end reset */
+
+img {
+	max-width: 100%;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* fonts */
+body {
+	color: rgba(52,51,67, 1);
+}
+body, p, a, input, textarea, select, .Description, li {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.5em;
+	letter-spacing: .33px;
+}
+
+p, input, textarea, select {
+	margin-bottom:1.5em;
+}
+
+h4, h4 a, .h4, legend {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+}
+
+h4 small {
+	line-height: .75em;
+}
+
+h3, h3 a, .h3 {
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	letter-spacing: 0px;
+}
+
+h2, h2 a, .h2 {
+	font-size: 2.125em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+h1, h1 a {
+	font-size: 4.75em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+label, .caption {
+	font-size: .75em;
+	line-height: 1.5em;
+	margin-bottom: .75em;
+}
+
+a, a:visited, a:hover {
+	cursor: pointer;
+	color: rgba(52,51,67, 1);
+}
+
+small, .small, .h4.small {
+    font-size: 80%;
+}
+
+/* annimations */
+.opacTransit {
+	-webkit-transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-ms-transition: opacity .25s ease-in-out;
+	-o-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+.opacZero {
+	opacity:0;
+}
+.opacOne {
+	opacity: 1;
+}
+
+/* general structure */
+img {
+	border: 1px solid rgba(37,37,42, .33);
+	max-width: 100%;
+}
+
+body {
+	background-color: rgba(212,211,223 ,.25);
+}
+
+.card {
+	display: inline-block;
+	background-color: white;
+	margin:1em 0;
+	padding: 1em;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0px 50px 185 -66px rgba(0,0,0,0.47);
+	-moz-box-shadow: 0px 50px 214px -66px rgba(0,0,0,0.47);
+	box-shadow: 0px 50px 214px -66px rgba(0,0,0,0.47);
+	border-radius: 3px;
+}
+
+.subCard {
+	margin:-1em 0 1em;
+}
+
+.hovStyle {
+	-moz-transition: background-color .2s ease-in;
+	-o-transition: background-color .2s ease-in;
+	-webkit-transition: background-color .2s ease-in;
+	transition: background-color .2s ease-in;
+	cursor: pointer;
+}
+
+.hovStyle:hover, .selected {
+	background-color: rgba(52,51,67, .75);
+	color: white;
+}
+
+.selected {
+	background-color: rgba(52,51,67, 1);
+	color: white;
+}
+
+a.selected:visited, a.selected:focus {
+	color:white;
+}
+
+#header {
+	padding:.75em 0 .25em 0;
+}
+
+/* nav */
+#nav {
+	margin-bottom:3em;
+	color: rgba(147,146,163,.5);
+}
+
+.nav.card {
+	padding:0;
+	margin:.5em 0;
+}
+
+#nav ul {
+    list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+#nav ul li {
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#nav ul li:first-child {
+	margin-left:0;
+}
+
+#nav ul li a{
+	padding: 1em .75em;
+	display: inline-block;
+	text-decoration: none;
+	margin:0;
+}
+
+/* cal */
+.calBadge {
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+}
+
+.calBadge .badge {
+	background-color: rgba(52,51,67, .5);
+	margin-top: 4.5em;
+	font-size: 50%;
+}
+.selected .selected .badge {
+	background-color: white;
+	color: rgba(52,51,67, .75);
+}
+
+.program .card{
+	margin: -.33em 0 2em;
+	position: relative;
+	z-index: 1;
+}
+
+.evCatContainer {
+	margin: 1.5em 0 0 -1em;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+}
+
+.calEventListHeader {
+	opacity: .5;
+	text-align: center;
+}
+
+.eventCat {
+	display: inline-block;
+	background-color: rgba(147,146,163,1);
+	padding:.12em .5em;
+	font-weight: 700;
+	letter-spacing: .25px;
+	color: rgba(255,255,255,1);
+	margin-right: .5em;
+	box-sizing: border-box;
+}
+
+#todayEvents {
+	margin-bottom:4.5em;
+
+}
+.description {
+	margin: .75em 0 1.5em;
+}
+
+@media screen and (max-width: 1073px) {
+
+	body {
+		font-size: 14px;
+	}
+}
+
+/* iPad */
+@media screen and (max-width: 769px) {
+
+	body {
+		font-size: 12px;
+	}
+}
